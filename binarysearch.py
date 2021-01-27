@@ -35,3 +35,4 @@ to_find = 20
 bst_index = binary_tree(data, to_find)
 print(data[bst_index])
 # %%
+# pytest to run
