@@ -17,13 +17,13 @@ Note: Names consist of lowercase English alphabetic letters and are first names 
 """
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input('How many Entries? '))
         
-    e = [input().split(' ') for _ in range(n)]
+    e = [input('Enter Name (firstname in lowercase) and Number: ').split(' ') for _ in range(n)]
     
     q = []
     while True:
-        key = input().split()
+        key = input('Find Whom (firstname in lowercase): ').split()
         if len(key) == 0:
             break
         else:
@@ -35,7 +35,7 @@ entries = dict(e)
 for query in q:
     for name in query:
         if name in entries:
-            print(f"{name}={entries[name]}")
+            print(f"\n{name}={entries[name]}")
         else:
-            print(name,': Not found')
+            print('\n',name,': Not found')
             continue
