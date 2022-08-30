@@ -32,7 +32,7 @@ def binary_search(data: List[float], to_find: int) -> int:
 unsorted_data = [20, 4, 67, 53, 21, 44, 9, 11]
 data = sorted(unsorted_data)
 to_find = 20
-bst_index = bindef binary_search(data, to_find)
+bst_index = binary_search(data, to_find)
 print(data[bst_index])
 # %%
 # pytest to run

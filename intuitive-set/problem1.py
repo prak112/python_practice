@@ -1,7 +1,11 @@
 #%%
-"""19Jan2021-[EASY]
+"""
+DCP
+---
+19Jan2021-[EASY]
 Problem was asked by Google.
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k."""
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+"""
 
 l1 = [10, 5, 22, 8, 6, 9] #list of numbers
 k = 30 #given value K

@@ -1,8 +1,12 @@
 #%%
-"""20Jan2021-[HARD]
+"""
+DCP
+---
+20Jan2021-[HARD]
 This problem was asked by Uber.
 Given an array of integers, return a new array such that each element at index i of the new array is the product of 
-all the numbers in the original array except the one at i, i.e., if input is [2, 3, 5, 6], output is [90, 60, 36, 30]"""
+all the numbers in the original array except the one at i, i.e., if input is [2, 3, 5, 6], output is [90, 60, 36, 30]
+"""
 
 #%%
 #import neccesary libraries
