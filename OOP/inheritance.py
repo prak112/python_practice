@@ -38,6 +38,7 @@ The third line of space-separated integers describes .
 
 # BaseClass(parentClass)
 class Person:
+    
     def __init__(self, firstname, lastname, id):
         self.firstname = firstname
         self.lastname = lastname
@@ -50,7 +51,6 @@ class Person:
 
 # DerivedClass(childClass)
 class Student(Person):
-
     def __init__(self, firstname, lastname, idnum, scores):
         Person.firstname = firstname
         Person.lastname = lastname
